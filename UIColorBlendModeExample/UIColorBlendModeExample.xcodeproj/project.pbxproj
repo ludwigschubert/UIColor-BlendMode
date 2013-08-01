@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A4244BD17AA7D100023BFE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4244BC17AA7D100023BFE2 /* UIKit.framework */; };
+		7A4244BF17AA7D100023BFE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4244BE17AA7D100023BFE2 /* Foundation.framework */; };
+		7A4244C117AA7D100023BFE2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4244C017AA7D100023BFE2 /* CoreGraphics.framework */; };
+		7A4244C717AA7D100023BFE2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A4244C517AA7D100023BFE2 /* InfoPlist.strings */; };
+		7A4244C917AA7D100023BFE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4244C817AA7D100023BFE2 /* main.m */; };
+		7A4244CD17AA7D100023BFE2 /* EPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4244CC17AA7D100023BFE2 /* EPAppDelegate.m */; };
+		7A4244CF17AA7D100023BFE2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A4244CE17AA7D100023BFE2 /* Default.png */; };
+		7A4244D117AA7D100023BFE2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A4244D017AA7D100023BFE2 /* Default@2x.png */; };
+		7A4244D317AA7D100023BFE2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A4244D217AA7D100023BFE2 /* Default-568h@2x.png */; };
+		7A4244D617AA7D100023BFE2 /* EPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4244D517AA7D100023BFE2 /* EPViewController.m */; };
+		7A4244E817AA85110023BFE2 /* UIColor+BlendMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4244E717AA850E0023BFE2 /* UIColor+BlendMode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A4244B917AA7D100023BFE2 /* UIColorBlendModeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIColorBlendModeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A4244BC17AA7D100023BFE2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7A4244BE17AA7D100023BFE2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7A4244C017AA7D100023BFE2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7A4244C417AA7D100023BFE2 /* UIColorBlendModeExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIColorBlendModeExample-Info.plist"; sourceTree = "<group>"; };
+		7A4244C617AA7D100023BFE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7A4244C817AA7D100023BFE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A4244CA17AA7D100023BFE2 /* UIColorBlendModeExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColorBlendModeExample-Prefix.pch"; sourceTree = "<group>"; };
+		7A4244CB17AA7D100023BFE2 /* EPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPAppDelegate.h; sourceTree = "<group>"; };
+		7A4244CC17AA7D100023BFE2 /* EPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPAppDelegate.m; sourceTree = "<group>"; };
+		7A4244CE17AA7D100023BFE2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7A4244D017AA7D100023BFE2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7A4244D217AA7D100023BFE2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7A4244D417AA7D100023BFE2 /* EPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPViewController.h; sourceTree = "<group>"; };
+		7A4244D517AA7D100023BFE2 /* EPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPViewController.m; sourceTree = "<group>"; };
+		7A4244E617AA850E0023BFE2 /* UIColor+BlendMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+BlendMode.h"; sourceTree = "<group>"; };
+		7A4244E717AA850E0023BFE2 /* UIColor+BlendMode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BlendMode.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A4244B617AA7D100023BFE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4244BD17AA7D100023BFE2 /* UIKit.framework in Frameworks */,
+				7A4244BF17AA7D100023BFE2 /* Foundation.framework in Frameworks */,
+				7A4244C117AA7D100023BFE2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A4244B017AA7D100023BFE2 = {
+			isa = PBXGroup;
+			children = (
+				7A4244C217AA7D100023BFE2 /* UIColorBlendModeExample */,
+				7A4244BB17AA7D100023BFE2 /* Frameworks */,
+				7A4244BA17AA7D100023BFE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A4244BA17AA7D100023BFE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A4244B917AA7D100023BFE2 /* UIColorBlendModeExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A4244BB17AA7D100023BFE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A4244BC17AA7D100023BFE2 /* UIKit.framework */,
+				7A4244BE17AA7D100023BFE2 /* Foundation.framework */,
+				7A4244C017AA7D100023BFE2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A4244C217AA7D100023BFE2 /* UIColorBlendModeExample */ = {
+			isa = PBXGroup;
+			children = (
+				7A4244E117AA7D450023BFE2 /* Vendor */,
+				7A4244DF17AA7D370023BFE2 /* Application */,
+				7A4244E017AA7D3B0023BFE2 /* Controllers */,
+				7A4244C317AA7D100023BFE2 /* Supporting Files */,
+			);
+			path = UIColorBlendModeExample;
+			sourceTree = "<group>";
+		};
+		7A4244C317AA7D100023BFE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A4244C417AA7D100023BFE2 /* UIColorBlendModeExample-Info.plist */,
+				7A4244C517AA7D100023BFE2 /* InfoPlist.strings */,
+				7A4244C817AA7D100023BFE2 /* main.m */,
+				7A4244CA17AA7D100023BFE2 /* UIColorBlendModeExample-Prefix.pch */,
+				7A4244CE17AA7D100023BFE2 /* Default.png */,
+				7A4244D017AA7D100023BFE2 /* Default@2x.png */,
+				7A4244D217AA7D100023BFE2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A4244DF17AA7D370023BFE2 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				7A4244CB17AA7D100023BFE2 /* EPAppDelegate.h */,
+				7A4244CC17AA7D100023BFE2 /* EPAppDelegate.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		7A4244E017AA7D3B0023BFE2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7A4244D417AA7D100023BFE2 /* EPViewController.h */,
+				7A4244D517AA7D100023BFE2 /* EPViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7A4244E117AA7D450023BFE2 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				7A4244E617AA850E0023BFE2 /* UIColor+BlendMode.h */,
+				7A4244E717AA850E0023BFE2 /* UIColor+BlendMode.m */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A4244B817AA7D100023BFE2 /* UIColorBlendModeExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A4244DC17AA7D100023BFE2 /* Build configuration list for PBXNativeTarget "UIColorBlendModeExample" */;
+			buildPhases = (
+				7A4244B517AA7D100023BFE2 /* Sources */,
+				7A4244B617AA7D100023BFE2 /* Frameworks */,
+				7A4244B717AA7D100023BFE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIColorBlendModeExample;
+			productName = UIColorBlendModeExample;
+			productReference = 7A4244B917AA7D100023BFE2 /* UIColorBlendModeExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A4244B117AA7D100023BFE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EP;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Elepath;
+			};
+			buildConfigurationList = 7A4244B417AA7D100023BFE2 /* Build configuration list for PBXProject "UIColorBlendModeExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7A4244B017AA7D100023BFE2;
+			productRefGroup = 7A4244BA17AA7D100023BFE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A4244B817AA7D100023BFE2 /* UIColorBlendModeExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A4244B717AA7D100023BFE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4244C717AA7D100023BFE2 /* InfoPlist.strings in Resources */,
+				7A4244CF17AA7D100023BFE2 /* Default.png in Resources */,
+				7A4244D117AA7D100023BFE2 /* Default@2x.png in Resources */,
+				7A4244D317AA7D100023BFE2 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A4244B517AA7D100023BFE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4244C917AA7D100023BFE2 /* main.m in Sources */,
+				7A4244CD17AA7D100023BFE2 /* EPAppDelegate.m in Sources */,
+				7A4244D617AA7D100023BFE2 /* EPViewController.m in Sources */,
+				7A4244E817AA85110023BFE2 /* UIColor+BlendMode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7A4244C517AA7D100023BFE2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A4244C617AA7D100023BFE2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A4244DA17AA7D100023BFE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7A4244DB17AA7D100023BFE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A4244DD17AA7D100023BFE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIColorBlendModeExample/UIColorBlendModeExample-Prefix.pch";
+				INFOPLIST_FILE = "UIColorBlendModeExample/UIColorBlendModeExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7A4244DE17AA7D100023BFE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIColorBlendModeExample/UIColorBlendModeExample-Prefix.pch";
+				INFOPLIST_FILE = "UIColorBlendModeExample/UIColorBlendModeExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A4244B417AA7D100023BFE2 /* Build configuration list for PBXProject "UIColorBlendModeExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A4244DA17AA7D100023BFE2 /* Debug */,
+				7A4244DB17AA7D100023BFE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A4244DC17AA7D100023BFE2 /* Build configuration list for PBXNativeTarget "UIColorBlendModeExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A4244DD17AA7D100023BFE2 /* Debug */,
+				7A4244DE17AA7D100023BFE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A4244B117AA7D100023BFE2 /* Project object */;
+}
