@@ -25,6 +25,7 @@
     return [self colorAtPosition:CGPointMake(0, 0) inImage:image];
 }
 
+// Source: https://gist.github.com/mindbrix/894665
 - (UIColor *)colorAtPosition:(CGPoint)position inImage:(UIImage *)image
 {
     CGRect sourceRect = CGRectMake(position.x, position.y, 1.0f, 1.0f);
